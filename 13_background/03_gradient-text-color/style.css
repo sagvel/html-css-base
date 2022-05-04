@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header-text {
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 96px;
+  background-image: linear-gradient(45deg, #ffff00, #f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

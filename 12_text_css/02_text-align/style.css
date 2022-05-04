@@ -1,0 +1,26 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 74px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50%;
+  text-overflow: ellipsis;
+  margin: 0 auto;
+}
+
+div {
+  height: 200px;
+  background-color: coral;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 200px;
+}

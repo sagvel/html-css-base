@@ -1,0 +1,45 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+.dropdown {
+  display: inline-block;
+  margin: 16px;
+}
+
+.menu-button {
+  display: inline-block;
+  background-color: darkgreen;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.menu-list {
+  display: none;
+  min-width: 120px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: lightcyan;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.dropdown:hover .menu-list {
+  display: block;
+}
+
+.menu-button:hover {
+  opacity: 1;
+}
+
+.menu-item {
+  padding: 16px;
+}
+
+.menu-item:hover {
+  background-color: ghostwhite;
+}
