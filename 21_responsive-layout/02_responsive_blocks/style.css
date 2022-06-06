@@ -18,7 +18,6 @@
   width: 20%;
   background-color: #5af;
   display: flex;
-  padding: 4px;
 }
 
 .idea {
@@ -29,6 +28,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  padding: 4px;
 }
 
 .image {
