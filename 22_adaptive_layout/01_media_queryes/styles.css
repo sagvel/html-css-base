@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  flex-direction: column;
 }
 
 .square {
@@ -24,5 +23,11 @@
 
   .container {
     flex-direction: row;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
   }
 }
