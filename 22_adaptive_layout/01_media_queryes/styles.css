@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  flex-direction: column;
 }
 
 .square {
@@ -19,5 +20,9 @@
 @media screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
+  }
+
+  .container {
+    flex-direction: row;
   }
 }
