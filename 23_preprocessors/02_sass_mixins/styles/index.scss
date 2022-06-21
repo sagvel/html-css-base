@@ -22,6 +22,10 @@ body {
     background-color: $color-sm;
     margin: $unit * 2;
 
+    @include landscape{
+      margin: $unit;
+    }
+
     @include for-medium-up {
       background-color: $color-md;
     }

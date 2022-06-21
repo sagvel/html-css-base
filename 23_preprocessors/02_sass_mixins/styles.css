@@ -21,6 +21,11 @@ body {
   background-color: #ff7f50;
   margin: 16px;
 }
+@media (orientation: landscape) {
+  .container .square {
+    margin: 8px;
+  }
+}
 @media screen and (min-width: 600px) {
   .container .square {
     background-color: #8a2be2;
