@@ -20,7 +20,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: $color-sm;
-    margin: $unit;
+    margin: $unit * 2;
 
     @include for-medium-up {
       background-color: $color-md;
