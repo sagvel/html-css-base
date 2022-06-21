@@ -1,0 +1,37 @@
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+
+$unit: 8px;
+$base-font-size: 16px;
+
+$border-radius: 4px;
+
+$color-primary: #ff7f50;
+$color-secondary: #006400;
+$color-advanced: #0ff;
+
+
+@mixin for-medium-up {
+  @media screen and (min-width: $sm) {
+    @content
+  }
+}
+
+@mixin for-large-up {
+  @media screen and (min-width: $md) {
+    @content
+  }
+}
+
+@mixin for-xxl-up {
+  @media screen and (min-width: $lg) {
+    @content
+  }
+}
+
+@mixin landscape {
+  @media (orientation: landscape) {
+    @content
+  }
+}
