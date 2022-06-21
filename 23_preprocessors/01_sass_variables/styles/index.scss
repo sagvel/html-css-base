@@ -1,0 +1,13 @@
+@import 'variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: $base-font-size;
+}
+
+@import 'header.scss';
+
