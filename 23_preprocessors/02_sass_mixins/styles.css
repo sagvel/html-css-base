@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
+
+.container {
+  margin: auto;
+}
+@media (orientation: landscape) {
+  .container {
+    display: flex;
+  }
+}
+.container .square {
+  width: 100px;
+  height: 100px;
+  background-color: #ff7f50;
+  margin: 8px;
+}
+@media screen and (min-width: 600px) {
+  .container .square {
+    background-color: #8a2be2;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container .square {
+    background-color: #a61;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container .square {
+    background-color: #c47;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
