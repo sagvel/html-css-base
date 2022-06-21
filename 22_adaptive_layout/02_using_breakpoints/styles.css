@@ -4,6 +4,7 @@
 
 .container {
   text-transform: lowercase;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .container-block {
