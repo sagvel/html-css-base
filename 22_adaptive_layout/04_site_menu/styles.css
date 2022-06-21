@@ -36,13 +36,14 @@ html {
 
 .nav-list-item {
   background-color: #808080;
-  font-size: 2em;
+  height: 2em;
+  line-height: 2em;
   margin-bottom: 0.5em;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #fff;
-  padding: 0.5em;
+  padding: 0 0.5em;
 }
 
 .nav-list-link {
